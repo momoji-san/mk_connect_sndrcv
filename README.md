@@ -7,7 +7,7 @@ MachiKaniaの`pcconnect`をBrainux/Linux環境へ移植・改修し、BASICプ�
 
 ## 主な機能
 
-- `machikap/`以下のファイルをMachiKaniaへ転送
+- Brainuxの`machikap/`以下のファイルをMachiKaniaへ転送（connect.ini の設定による）
 - MachiKaniaのUSB CDCシリアル通信（`/dev/ttyACM*`）に対応
 - USBを抜き差しした際、`ttyACM0`から`ttyACM1`などへ番号が変わっても自動的に再接続
 - MachiKaniaのリセットを待機し、`MACHIKAP`通信を検出すると自動的にファイル転送を開始
