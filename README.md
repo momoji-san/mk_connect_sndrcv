@@ -102,7 +102,8 @@ Brainuxでのファイル配置例です。
 
 ```text
 .
-├── connect_sndrcv.c
+├── connect_sndrcv.c  
+｜   connect.ini  
 └── machikap/
     └── MACHIKAP.BAS
 ```
