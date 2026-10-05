@@ -19,15 +19,16 @@ MachiKaniaの`pcconnect`をBrainux/Linux環境へ移植・改修し、BASICプ�
 ## 動作の流れ
 
 ```text
-Brainuxでプログラム起動
+Brainuxで本プログラムを起動
         ↓
 MachiKaniaのリセット待ち
         ↓
-MACHIKAPを検出
+MachiKaniaからのMACHIKAPを検出
         ↓
 MachiKaniaへBASファイルを転送
         ↓
-MachiKaniaがコンパイル・実行
+MachiKaniaがコンパイル・実行  
+(MACHIKAP.INIで自動実行設定)
         ↓
 コンパイル結果やPRINT出力をBrainuxへ表示
         ↓
@@ -35,7 +36,9 @@ MachiKaniaがコンパイル・実行
         ↓
 次のMachiKaniaリセット待ち
         ↓
-リセットすると再び転送
+MachiKaniaのリセットすると再び転送  
+        ↓  
+  （以降繰り返し Ctrl+Cで終了）  
 ```
 
 ## 使用例
