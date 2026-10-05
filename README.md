@@ -1,7 +1,7 @@
 # mk_connect_sndrcv
 This is a program that send program file and receives text of the execution results from MachiKania.
 
-電子辞書Brainで動作するLinuxのBrainux上で動作する、MachiKania Type-P/PU とのUSB CDC接続用の`pcconnect`のカスタマイズ版です。
+電子辞書BrainのLinuxディストリビューションBrainux上で動作する、MachiKania Type-P/PU とのUSB CDC接続用の`pcconnect`のカスタマイズ版です。
 
 MachiKaniaの`pcconnect`をBrainux/Linux環境へ移植・改修し、BASICプログラムの転送だけでなく、MachiKania側から返ってくるコンパイル結果や`PRINT`などのテキスト出力をBrainuxのターミナルへ表示できるようにしています。
 
