@@ -66,7 +66,7 @@ LCD, File, & Keyboard systems by KENKEN
 
 Compiling MACHIKAP.BAS
 
-HELLO MachiKania 333
+HELLO MachiKania  
 ```
 
 ここでキーを押すと、次のMachiKaniaリセット待ちになります。
