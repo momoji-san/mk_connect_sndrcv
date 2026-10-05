@@ -105,5 +105,5 @@ MachiKaniaとの通信では、`MACHIKAP`、`SENDCMDS`、`SENDFILE`、`DONEDONE`
 
 ## Source
 
-- `mk_connect_sndrcv.c` — Brainux向け改修版pcconnect
+- `connect_sndrcv.c` — Brainux向け改修版pcconnect
 
