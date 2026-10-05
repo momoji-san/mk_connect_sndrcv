@@ -121,5 +121,5 @@ MachiKania側のUSBキーボード対応ファームウェアと`pcconnect`の�
 
 ## ライセンス  
 
-元の connect.c のライセンスに遵守し、 GNU Lesser General Public License v2.1 となります。  
+- 元の connect.c のライセンスに遵守し、 GNU Lesser General Public License v2.1 となります。  
 
