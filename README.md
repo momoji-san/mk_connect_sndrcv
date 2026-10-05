@@ -3,7 +3,7 @@ This is a program that send program file and receives the text of the execution 
 
 Brainux上で動作する、MachiKania Type-P/PU とのUSB CDC接続用の`pcconnect`のカスタマイズ版です。
 
-MachiKaniaの`pcconnect`をBrainux/Linux環境へ移植・改修し、BASICプログラムの転送だけでなく、MachiKania側から返ってくるコンパイル結果や`PRINT`などのテキストをBrainuxのターミナルへ表示できるようにしています。
+MachiKaniaの`pcconnect`をBrainux/Linux環境へ移植・改修し、BASICプログラムの転送だけでなく、MachiKania側から返ってくるコンパイル結果や`PRINT`などのテキスト出力をBrainuxのターミナルへ表示できるようにしています。
 
 ## 主な機能
 
@@ -101,7 +101,7 @@ MachiKaniaとの通信では、`MACHIKAP`、`SENDCMDS`、`SENDFILE`、`DONEDONE`
 
 このプログラムは、Brainux上でMachiKaniaとのプログラム転送・実行・出力確認を繰り返し行うための実験・開発用プログラムです。
 
-特に、MachiKania側のUSBキーボード対応ファームウェアと`pcconnect`のファイル転送機能には組み合わせ上の制約があります。使用するMachiKaniaファームウェアの仕様に合わせてください。
+MachiKania側のUSBキーボード対応ファームウェアと`pcconnect`のファイル転送機能には組み合わせ上の制約があり、USBキーボード対応ファームウェアでは本プログラムは動作しません（MachiKaniaのpcconnectの仕様）。
 
 ## Source
 
