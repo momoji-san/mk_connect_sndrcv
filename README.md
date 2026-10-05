@@ -1,7 +1,7 @@
 # mk_connect_sndrcv
 MachiKania file send and text receive program.
 
-Brainux上で動作する、MachiKania Type-PとのUSB CDC接続用の`pcconnect`のカスタマイズ版です。
+Brainux上で動作する、MachiKania Type-P/PU とのUSB CDC接続用の`pcconnect`のカスタマイズ版です。
 
 MachiKaniaの`pcconnect`をBrainux/Linux環境へ移植・改修し、BASICプログラムの転送だけでなく、MachiKania側から返ってくるコンパイル結果や`PRINT`などのテキストをBrainuxのターミナルへ表示できるようにしています。
 
