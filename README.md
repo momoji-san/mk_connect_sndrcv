@@ -117,5 +117,10 @@ MachiKania側のUSBキーボード対応ファームウェアと`pcconnect`の�
 
 ## Source
 
-- `connect_sndrcv.c` — Brainux向け改修版pcconnect
+- `src/connect_sndrcv.c` — Brainux向け改修版pcconnect
+
+## ライセンス  
+
+元の connect.c のライセンスに順書し、 GNU Lesser General Public License v2.1 となります。
+
 
