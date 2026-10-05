@@ -12,7 +12,7 @@ MachiKaniaの`pcconnect`をBrainux/Linux環境へ移植・改修し、BASICプ�
 - USBを抜き差しした際、`ttyACM0`から`ttyACM1`などへ番号が変わっても自動的に再接続
 - MachiKaniaのリセットを待機し、`MACHIKAP`通信を検出すると自動的にファイル転送を開始
 - 転送完了後、MachiKaniaから送られてくる起動メッセージ、コンパイル結果、BASICプログラムの出力をターミナルへ表示
-- MachiKaniaをリセットすると、同じプログラムを繰り返し転送・実行可能
+- MachiKaniaをリセットすると、同じプログラムファイルを繰り返し転送・実行可能
 - 出力表示中にBrainux側で任意のキーを押すと、次のMachiKaniaリセット待ちへ戻る
 - BASICプログラムが無限ループしていても、Brainux側のキー入力で受信処理を終了し、次の実行へ移行可能
 
