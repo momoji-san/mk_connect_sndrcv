@@ -69,7 +69,7 @@ Compiling MACHIKAP.BAS
 HELLO MachiKania  
 ```
 
-ここでキーを押すと、次のMachiKaniaリセット待ちになります。
+ここで何かキーを押すと、次のMachiKaniaリセット待ちになります。
 
 ## USBデバイス番号の変化への対応
 
