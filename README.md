@@ -1,5 +1,5 @@
 # mk_connect_sndrcv
-This is a program that send program file and receives the text of the execution results from MachiKania.
+This is a program that send program file and receives text of the execution results from MachiKania.
 
 Brainux上で動作する、MachiKania Type-P/PU とのUSB CDC接続用の`pcconnect`のカスタマイズ版です。
 
