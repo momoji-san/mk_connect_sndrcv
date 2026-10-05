@@ -83,7 +83,7 @@ MachiKaniaとの通信では、`MACHIKAP`、`SENDCMDS`、`SENDFILE`、`DONEDONE`
 - MachiKania Type-P/PU
 - MachiKaniaとBrainを接続する OTGケーブル（給電付）
 - Brainux側でUSB CDC ACMが使用できること（Brainuxのリビルドが必要）  
-　Brainuxのリビルドは下記を参照
+　Brainuxのリビルドは下記を参照  
  　https://momoji-san.hateblo.jp/entry/2026/09/13/162228
 - `/dev/ttyACM0`～`/dev/ttyACM9`のいずれかでMachiKaniaが認識されること
 - GCC(Brainuxには標準でインストール済)
