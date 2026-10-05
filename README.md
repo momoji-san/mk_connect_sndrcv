@@ -40,8 +40,11 @@ MachiKaniaがコンパイル・実行
 
 ## 使用例
 
-`machikap/`に`MACHIKAP.BAS`を置いてプログラムを起動します。
+`machikap/`に`MACHIKAP.BAS`を置いてプログラムを起動します。  
+connect.iniを設定しておきます。設定方法は下記を参照。  
+https://rad51.net/blog/mycom/index.php?itemid=972  
 
+プログラムをコンパイルして、実行。  
 ```sh
 gcc -O2 -Wall -o connect_sndrcv connect__sndrcv.c
 ./connect_sndrcv
