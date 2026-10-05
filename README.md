@@ -47,7 +47,7 @@ MachiKaniaのリセットすると再び転送
 connect.iniを設定しておきます。設定方法は下記を参照。  
 https://rad51.net/blog/mycom/index.php?itemid=972  
 
-プログラムをコンパイルして、実行。(実行ファイルをconnect_sndrcv とした場合)  
+このリポジトリのsrcフォルダにあるconnect__sndrcv.cをBrainuxに転送し、プログラムをコンパイルして実行。(実行ファイルをconnect_sndrcv とした場合)  
 
 ```sh
 gcc -O2 -Wall -o connect_sndrcv connect__sndrcv.c
