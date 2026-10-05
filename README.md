@@ -80,16 +80,17 @@ MachiKaniaとの通信では、`MACHIKAP`、`SENDCMDS`、`SENDFILE`、`DONEDONE`
 ## 必要な環境
 
 - Brainuxが動作するSHARP Brain
-- MachiKania Type-P
-- Brainux側でUSB CDC ACMが使用できること
+- MachiKania Type-P/PU
+- MachiKaniaとBrainを接続する OTGケーブル（給電付）
+- Brainux側でUSB CDC ACMが使用できること（Brainuxのリビルドが必要）
 - `/dev/ttyACM0`～`/dev/ttyACM9`のいずれかでMachiKaniaが認識されること
-- GCC
+- GCC(標準でインストール済)
 
 ## ファイル構成例
 
 ```text
 .
-├── connect_receive_wait_reconnect.c
+├── mk_connect_sndrcv.c
 └── machikap/
     └── MACHIKAP.BAS
 ```
@@ -102,5 +103,5 @@ MachiKaniaとの通信では、`MACHIKAP`、`SENDCMDS`、`SENDFILE`、`DONEDONE`
 
 ## Source
 
-- `connect_receive_wait_reconnect.c` — Brainux向け改良版pcconnect
+- `mk_connect_sndrcv.c` — Brainux向け改修版pcconnect
 
