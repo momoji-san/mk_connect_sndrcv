@@ -38,7 +38,7 @@ MachiKaniaがコンパイル・実行
         ↓
 MachiKaniaのリセットすると再び転送  
         ↓  
-  （以降繰り返し Ctrl+Cで終了）  
+（以降繰り返し Ctrl+Cで終了）  
 ```
 
 ## 使用例
@@ -50,10 +50,10 @@ https://rad51.net/blog/mycom/index.php?itemid=972
 プログラムをコンパイルして、実行。  
 ```sh
 gcc -O2 -Wall -o connect_sndrcv connect__sndrcv.c
-./connect_sndrcv
+sudo ./connect_sndrcv
 ```
 
-MachiKaniaをリセットすると、BASICファイルが転送されます。
+MachiKaniaをリセットすると、BASICファイル（MACHIKAP.BAS）が転送されます。
 
 転送後は、例えば次のようなMachiKaniaの出力がBrainuxのターミナルに表示されます。
 
